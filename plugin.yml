@@ -1,0 +1,19 @@
+name: HideFromTheBeast
+main: net.mycraft_public.hidefromthebeast.Main
+version: 1.0
+description: Hide From The Beast MiniGame made by Predator121.
+commands:
+    hftb:
+        usage: /hftb <option>
+        description: Hide From The Beast's minigame commands.
+        aliases: hidefromthebeast
+permissions:
+    hftb.play:
+        description: Grants access to /hftb join|leave
+        default: op
+    hftb.admin:
+        description: Grants access to /hftb start|stop
+        default: op
+    hftb.status:
+         description: Grants access to /hftb status
+         default: op
